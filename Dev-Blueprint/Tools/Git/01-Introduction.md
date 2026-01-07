@@ -126,42 +126,42 @@ the exercises provided, you will gain hands-on experience with Git and improve y
 # git commands quick reference
 
 Git Command Cheat Sheet
-git clone <repository-url>       # Clone a remote repository
-git status                       # Check the status of your working directory
-git add <file-name>              # Stage a specific file
-git add .                        # Stage all changes
+git clone <repository-url>           # Clone a remote repository
+git status                           # Check the status of your working directory
+git add <file-name>                  # Stage a specific file
+git add .                            # Stage all changes
 git commit -m "Your commit message"  # Commit staged changes with a message
-git push origin <branch-name>    # Push committed changes to a remote repository
-git pull origin <branch-name>    # Pull changes from a remote repository
-git branch                       # List all branches
-git checkout <branch-name>       # Switch to a different branch
-git merge <branch-name>          # Merge a branch into the current branch
-git log                          # View commit history
-git remote -v                    # View remote repositories
-git fetch                        # Fetch changes from a remote repository
-git reset <file-name>            # Unstage a file
-git diff                         # Show changes between commits or working tree
-git stash                        # Stash uncommitted changes
-git stash pop                    # Retrieve stashed changes
-git reflog                       # View the history of HEAD changes
-git reset --soft HEAD~1          # Undo the last commit but keep changes staged
-git gc                           # Optimize the repository by cleaning up unnecessary files
-git fsck                         # Check the integrity of the repository
-git checkout <commit-hash>       # Checkout a specific commit (detached HEAD state)
-git branch -d <branch-name>      # Delete a branch
-git branch <branch-name>         # Create a new branch
-git rebase <branch-name>         # Reapply commits on top of another base branch
-git remote add <name> <url>      # Add a new remote repository
-git remote remove <name>         # Remove a remote repository
-git log --oneline                # View a condensed commit history
-git log --graph                  # View a graphical representation of the commit history
-git log -p                       # View commit history with diffs
+git push origin <branch-name>        # Push committed changes to a remote repository
+git pull origin <branch-name>        # Pull changes from a remote repository
+git branch                           # List all branches
+git checkout <branch-name>           # Switch to a different branch
+git merge <branch-name>              # Merge a branch into the current branch
+git log                              # View commit history
+git remote -v                        # View remote repositories
+git fetch                            # Fetch changes from a remote repository
+git reset <file-name>                # Unstage a file
+git diff                             # Show changes between commits or working tree
+git stash                            # Stash uncommitted changes
+git stash pop                        # Retrieve stashed changes
+git reflog                           # View the history of HEAD changes
+git reset --soft HEAD~1              # Undo the last commit but keep changes staged
+git gc                               # Optimize the repository by cleaning up unnecessary files
+git fsck                             # Check the integrity of the repository
+git checkout <commit-hash>           # Checkout a specific commit (detached HEAD state)
+git branch -d <branch-name>          # Delete a branch
+git branch <branch-name>             # Create a new branch
+git rebase <branch-name>             # Reapply commits on top of another base branch
+git remote add <name> <url>          # Add a new remote repository
+git remote remove <name>             # Remove a remote repository
+git log --oneline                    # View a condensed commit history
+git log --graph                      # View a graphical representation of the commit history
+git log -p                           # View commit history with diffs
 git config --global user.name "Your Name"   # Set your Git username
 git config --global user.email "<your.email@example.com>"   # Set your Git email  address
-git lfs install                  # Install Git Large File Storage (LFS)
-git lfs track "<file-pattern>"    # Track large files with Git LFS
-git lfs push origin <branch-name> # Push large files to remote repository
-git lfs pull origin <branch-name> # Pull large files from remote repository
+git lfs install                      # Install Git Large File Storage (LFS)
+git lfs track "<file-pattern>"       # Track large files with Git LFS
+git lfs push origin <branch-name>    # Push large files to remote repository
+git lfs pull origin <branch-name>    # Pull large files from remote repository
 
 # End of Git Command Cheat Sheet
 
@@ -204,5 +204,3 @@ GitHub is a web-based platform that uses Git for version control and provides ad
 Git is a version control system that allows developers to track changes in their code and collaborate with others. It is a command-line tool that manages local repositories on a developer's machine.
 GitHub, on the other hand, is a web-based platform that hosts Git repositories and provides additional features for collaboration, project management, and code hosting. It allows developers to share their code with others, manage projects, and utilize tools like pull requests and issue tracking.
 In summary, Git is the underlying technology for version control, while GitHub is a platform that leverages Git to facilitate collaboration and project management among developers.
-
-
